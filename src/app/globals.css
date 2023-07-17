@@ -25,3 +25,14 @@
     )
     rgb(var(--background-start-rgb));
 } */
+/* .image-container{
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: scroll;
+} */
+
+.typewriter-text {
+  color: orange;
+  font-size: 2xl;
+  font-weight: bold;
+}
