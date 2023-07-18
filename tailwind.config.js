@@ -10,7 +10,8 @@ module.exports = {
         customColor: '#41448b',
         customColor1:'#767676',
         customColor2:'#007aff',
-        typewriterColor:'#f4d32a'
+        typewriterColor:'#f4d32a',
+        customColor3:'#fff'
 
 
       },

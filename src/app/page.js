@@ -14,6 +14,7 @@ import Joinnow from "./components/Joinnow";
 import UniversityPartner from "./components/Universitypartner";
 import Scholarship from "./components/Scholarship";
 import MoreaboutING from "./components/MoreaboutING";
+import Typewritereffect from "./components/Typewritereffect";
 
 const HomePage = () => {
   return (
@@ -50,7 +51,7 @@ const HomePage = () => {
           <p className="text-white text-customSize3 uppercase font-light mt-[1.5cm]">
             Since 1996
           </p>
-          <div className="mt-[35cm] mr-[28cm] uppercase font-bold text-typewriterColor text-7xl static ">
+          {/* <div className="mt-[35cm] mr-[28cm] uppercase font-bold text-typewriterColor text-7xl static ">
             
             <Typewriter
               options ={{
@@ -61,7 +62,8 @@ const HomePage = () => {
               style={{ fontWeight: "bold", color: "blue" }}
             />
             
-          </div>
+          </div> */}
+          <Typewritereffect/>
           
             
         </div>
@@ -69,7 +71,8 @@ const HomePage = () => {
       </div>
 
       <div className="container mx-auto py-12 text-center">
-        <h1 className=" mt-[3cm] text-customSize uppercase font-light text-customColor leading-snug">
+        <h1 className=" mt-[3cm] text-customSize uppercase font-light text-customColor leading-snug
+        ">
           The Islington
           <br />
           <span className="font-bold text-customColor">Experience</span>
@@ -86,10 +89,13 @@ const HomePage = () => {
         </p>
       </div>
       <Typewriter />
+      <Imagegallery/>
 
       <IslingtonSpirit />
-
       <Internationalexposure />
+
+
+      
       {/* <Imagegallery/> */}
 
       <Infrastructure />

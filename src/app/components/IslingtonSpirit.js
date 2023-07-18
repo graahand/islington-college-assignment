@@ -23,31 +23,30 @@ const IslingtonSpirit = () => {
         <div className="relative group">
           <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-50"></div>
           <img src="/acespectrum-lg.jpg" alt="" className="w-full" />
-          <div className="absolute top-0 left-0 w-full h-1/2 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-0 group-hover:h-half"></div>
+          <div className="absolute top-0 left-0 w-full h-1/2 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-0 group-hover:h-full"></div>
           <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <div className="text-white text-xl">
-              <p className="font-bold">Ace Spectrum Winner</p>
-              <p className="text-sm">2018</p>
+              <p className="font-light text-2xl">Ace Spectrum 2018 <br/><strong className="ml-[1.5cm] font-bold uppercase">Winner</strong></p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-50"></div>
           <img src="/lacup-lg.jpg" alt="" className="w-full" />
-          <div className="absolute top-0 left-0 w-full h-1/2 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-0 group-hover:h-full"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-0 group-hover:h-full"></div>
           <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <div className="text-white text-xl">
-              <p className="font-bold">LA Cup Winner</p>
+              <p className="font-light text-2xl">LA Cup 2019 <br/><strong className="ml-[0.6cm] font-bold uppercase">Winner</strong></p>
             </div>
           </div>
         </div>
         <div className="relative group">
           <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-50"></div>
-          <img src="/battleofthebrain-lg.jpg" alt="" className="w-full" />
-          <div className="absolute top-0 left-0 w-full h-1/2 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-0 group-hover:h-full"></div>
+          <img src="/battleofthebrain-lg.jpg" alt="" className="w-full " />
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-0 group-hover:h-full"></div>
           <div className="absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
             <div className="text-white text-xl">
-              <p className="font-bold">Battle of the Brain Winner</p>
+              <p className="font-light text-2xl">Battle of the Brain 2019<br/> <strong className="ml-[2cm] font-bold uppercase">Winner</strong></p>
             </div>
           </div>
         </div>

@@ -1,9 +1,13 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faTwitter,
-  faInstagram,
-} from "@fortawesome/free-solid-svg-icons";
+"use client";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import {
+//   faFacebook,
+//   faTwitter,
+//   faInstagram,
+// } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
+// import { SocialIcon } from 'react-social-icons';
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -52,28 +56,43 @@ const Footer = () => {
             </button>
             <div className="flex items-center mt-4">
               <div className="font-bold text-lg mr-2">Follow us:</div>
-              {/* <div className="flex space-x-2">
-                <a href="#" className="text-gray-200">
+              <div className="flex space-x-2">
+                {/* <Link href="#" className="text-gray-200">
                   <FontAwesomeIcon icon={faFacebook} />
-                </a>
-                <a href="#" className="text-gray-200">
+                </Link>
+                <Link href="#" className="text-gray-200">
                   <FontAwesomeIcon icon={faTwitter} />
-                </a>
-                <a href="#" className="text-gray-200">
-                  <FontAwesomeIcon icon={faInstagram} />
-                </a>
-              </div> */}
+                </Link>
+                <Link href="#" className="text-gray-200">
+                  <FontAwesomeIcon icon={faInstagram} /> */}
+
+                {/* </Link> */}
+                {/* <div className="flex space-x-4">
+      <SocialIcon
+        url="https://twitter.com/your_twitter_profile"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="h-6 w-6"
+      />
+      <SocialIcon
+        url="https://facebook.com/your_facebook_profile"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="h-6 w-6"
+      />
+       </div> */}
+              </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <div className="bg-blue-950 mt-16 py-3.5">
+       {/* <div className="bg-blue-950 mt-16 py-3.5">
           <div className="container mt- 10 mx-auto px-10 text-center">
             <p className="text-white text-lg">
               © 2023 Islington College. All rights reserved.
             </p>
           </div>
-        </div> */}
+        </div>  */}
     </footer>
   );
 };

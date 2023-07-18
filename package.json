@@ -12,6 +12,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@heroicons/react": "^2.0.18",
     "autoprefixer": "10.4.14",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
@@ -19,6 +20,9 @@
     "postcss": "8.4.25",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-simple-typewriter": "^5.0.1",
+    "react-typewriter-effect": "^1.1.0",
     "tailwindcss": "3.3.2",
     "typewriter-effect": "^2.20.1"
   }
