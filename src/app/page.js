@@ -15,6 +15,7 @@ import UniversityPartner from "./components/Universitypartner";
 import Scholarship from "./components/Scholarship";
 import MoreaboutING from "./components/MoreaboutING";
 import Typewritereffect from "./components/Typewritereffect";
+import Scholarshiprecipent from "./components/Scholarshiprecipent";
 
 const HomePage = () => {
   return (
@@ -96,7 +97,7 @@ const HomePage = () => {
 
 
       
-      {/* <Imagegallery/> */}
+      <Imagegallery/>
 
       <Infrastructure />
 
@@ -109,6 +110,7 @@ const HomePage = () => {
       <UniversityPartner />
 
       <Scholarship />
+      <Scholarshiprecipent/>
 
       {/* <MoreaboutING/> */}
 

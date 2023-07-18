@@ -4,8 +4,8 @@ const Scholarship = () => {
   return (
     <div className="bg-gray-50 p-8 mb-[3cm]">
       <h1 className="text-customColor uppercase text-center mt-[2cm]">
-        <span className=" text-5xl/[100px]  font-light">Scholarship</span>{" "}
-        <span className="text-5xl/[100px] font-bold">opportunities</span>
+        <span className=" text-5xl/[100px] cursor-pointer font-light">Scholarship</span>{" "}
+        <span className="text-5xl/[100px] cursor-pointer font-bold">opportunities</span>
       </h1>
       <p className="mt-8 mb-[1.5cm] text-center font-light text-customColor1">
         Seize the opportunity to become part of our amazing scholarship program

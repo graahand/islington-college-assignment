@@ -13,11 +13,11 @@ const UniversityPartner = () => {
 
       <div className="w-1/2 ml-[-2cm] mt-[-3cm]">
         <div className="h-screen flex flex-col justify-center items-start ml-10">
-          <h1 className="text-customSize font-light text-customColor inline-block">
+          <h1 className="text-customSize font-light uppercase text-customColor cursor-pointer inline-block">
             University <span class="font-bold">Partner</span>
           </h1>
 
-          <img src="/londonmet-logo.svg" alt="Logo" className="mt-customMt" />
+          <img src="/londonmet-logo.svg" alt="Logo" className="mt-customMt cursor-pointer" />
           <p className="  text-customColor1 mt-[2cm] mb-[1cm]">
             London Metropolitan University (London Met) is a diverse and vibrant{" "}
             <br /> place of learning, located in the heart of the world’s most

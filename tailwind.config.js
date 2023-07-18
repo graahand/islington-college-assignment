@@ -20,6 +20,7 @@ module.exports = {
         'customSize1':'clamp(10px,1.5vw,16px)',
         'customSize2':'clamp(16px,3.5vw,2.7084vw)',
         'customSize3':'clamp(12px,1.5vw,2vw)',
+        customSize4:'clamp(16px,1.5vw,34px)'
       },
       spacing:{
         'customMt':'97px',
