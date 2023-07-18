@@ -11,7 +11,9 @@ module.exports = {
         customColor1:'#767676',
         customColor2:'#007aff',
         typewriterColor:'#f4d32a',
-        customColor3:'#fff'
+        customColor3:'#fff',
+        footerBG:'#2d2f53'
+        
 
 
       },

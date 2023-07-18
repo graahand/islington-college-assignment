@@ -2,9 +2,9 @@ import React from "react";
 
 const IslingtonSpirit = () => {
   return (
-    <div className="flex bg-gray-100 h-screen">
+    <div className="flex bg-gray-100 h-screen ">
       <div className="flex-1 bg-gray-100 p-8 flex flex-col ml-[4cm] justify-center">
-        <div className="text-5xl uppercase font-light text-customColor mb-2">
+        <div className="text-5xl bg-gray-100 uppercase font-light text-customColor mb-2">
           The Islington
         </div>
         <div className="text-5xl uppercase font-bold text-customColor">
@@ -19,7 +19,7 @@ const IslingtonSpirit = () => {
           </a>
         </div>
       </div>
-      <div className="flex-1 bg-gray-200 justify-center items-center flex-col justify-start overflow-scroll">
+      <div className="flex-1 bg-gray-200 justify-center items-center flex-col justify-start overflow-x-clip">
         <div className="relative group">
           <div className="absolute inset-0 bg-black opacity-0 transition-opacity duration-300 group-hover:opacity-50"></div>
           <img src="/acespectrum-lg.jpg" alt="" className="w-full" />

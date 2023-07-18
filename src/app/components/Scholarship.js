@@ -16,7 +16,7 @@ const Scholarship = () => {
           Scholarship Programme
         </strong>
         ); an ING initiative that allows you to reinforce your academics and
-        experience at an international level, courtesy of the London  <strong className="font-bold text-red-500">Rs. 1.5 Crore</strong>.
+        experience at an international level, courtesy of the London  
         <br />
         Metropolitan University in the UK worth   <strong className="font-bold text-red-500">Rs. 1.5 Crore</strong>.
       </p>
