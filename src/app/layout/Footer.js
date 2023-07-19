@@ -11,7 +11,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-footerBG opacity-95 bg-gradient-to-r py-24">
+    <footer className="bg-footerBG text-white-500 opacity-95 bg-gradient-to-r py-24">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="flex flex-col items-center">
@@ -24,7 +24,7 @@ const Footer = () => {
             <p className="text-blue-200 text-lg">Kathmandu, Nepal</p>
           </div>
           <div className="flex flex-col">
-            <h2 className="font-bold text-lg mb-2">Quick Links</h2>
+            <h2 className="font-bold text-blue-200 text-lg mb-2">Quick Links</h2>
             <ul className="text-blue-200 text-lg">
               <li>
                 <a href="#">About</a>
@@ -38,24 +38,24 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-col">
-            <h2 className="font-bold text-lg mb-2">Programmes</h2>
+            <h2 className="font-bold text-blue-200 text-lg mb-2">Programmes</h2>
             <ul className="text-blue-200 text-lg">
               <li>IT Degree</li>
               <li>Business Degree</li>
             </ul>
           </div>
           <div className="flex flex-col">
-            <h2 className="font-bold text-lg mb-2">Contact</h2>
+            <h2 className="font-bold text-blue-200 text-lg mb-2">Contact</h2>
             <p className="text-blue-200 text-lg">Phone: 000000000000</p>
             <p className="text-blue-200 text-lg">Mobile: 900000000000</p>
             <p className="text-blue-200 text-lg">
               Email: info@islingtoncollege.edu.np
             </p>
-            <button className="bg-blue-500 text-white rounded px-4 py-2 mt-4">
+            <button className="bg-customColor text-white rounded px-4 py-2 mt-4">
               Enquire Now
             </button>
             <div className="flex items-center mt-4">
-              <div className="font-bold text-lg mr-2">Follow us:</div>
+              <div className="font-bold text-lg text-blue-200 mr-2">Follow us:</div>
               <div className="flex space-x-2">
                 {/* <Link href="#" className="text-gray-200">
                   <FontAwesomeIcon icon={faFacebook} />

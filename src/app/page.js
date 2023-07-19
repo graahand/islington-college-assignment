@@ -20,9 +20,13 @@ import Scholarshiprecipent from "./components/Scholarshiprecipent";
 const HomePage = () => {
   return (
     <>
-      <div>
-        <Navbar />
+
+    
+    
+      <div className="scrollNav">
+        <Navbar  />
       </div>
+      
 
       <div className="relative">
         <Image

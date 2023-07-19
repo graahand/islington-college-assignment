@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 
 const ScholarshipRecipient = () => {
@@ -10,13 +11,13 @@ const ScholarshipRecipient = () => {
         <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-sm hover:shadow-black/30">
           <div class="h-98 w-100">
             <img
-              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              class="h-full w-full object-cover transition-transform duration-700 delay-600 group-hover:rotate-3 group-hover:scale-125"
               src="/stories0@2x.png"
               alt=""
             />
-            <p class="absolute inset-0 flex items-center justify-center text-white text-xl font-bold pointer-events-none">
+            {/* <p class="absolute inset-0 flex items-center justify-center text-white text-xl font-bold pointer-events-none">
         Monil Adhikari
-      </p>
+      </p> */}
           </div>
           <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
           <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
@@ -32,7 +33,7 @@ const ScholarshipRecipient = () => {
         <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <div class="h-83 w-100">
             <img
-              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              class="h-full w-full object-cover transition-transform duration-700 delay-600 group-hover:rotate-3 group-hover:scale-125"
               src="/stories1@2x.png"
               alt=""
             />
@@ -54,7 +55,7 @@ const ScholarshipRecipient = () => {
         <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
           <div class="h-83 w-100">
             <img
-              class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+              class="h-full w-full object-cover transition-transform duration-700 delay-600 group-hover:rotate-3 group-hover:scale-125"
               src="/stories3@2x.png"
               alt=""
             />

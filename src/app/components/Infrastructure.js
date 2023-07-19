@@ -1,3 +1,4 @@
+'use client'
 const Infrastructures = () => {
   return (
     <div className="flex mt-[3cm] mb-10 items-center">
