@@ -16,6 +16,7 @@ import Scholarship from "./components/Scholarship";
 import MoreaboutING from "./components/MoreaboutING";
 import Typewritereffect from "./components/Typewritereffect";
 import Scholarshiprecipent from "./components/Scholarshiprecipent";
+import Ouralumni from "./components/Ouralumni";
 
 const HomePage = () => {
   return (
@@ -117,6 +118,7 @@ const HomePage = () => {
       <Scholarshiprecipent/>
 
       {/* <MoreaboutING/> */}
+      <Ouralumni/>
 
       <Footer />
     </>
