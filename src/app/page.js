@@ -81,7 +81,7 @@ const HomePage = () => {
       </div>
 
       <div className="container mx-auto py-12 flex flex-col items-center justify-content h-screen">
-        <p className="text-lg mt-[-3cm] text-base/[customSize] font-light text-customColor1 text-justify leading-snug text-center py-12">
+        <p className="text-lg mt-[-3cm] text-sm/[16px] font-light text-customColor1 text-justify leading-snug text-center py-12">
           A college experience transcends beyond just classrooms and lecture
           theatres. Celebrate our fun-filled
           <br />
@@ -97,7 +97,7 @@ const HomePage = () => {
 
 
       
-      <Imagegallery/>
+      
 
       <Infrastructure />
 
