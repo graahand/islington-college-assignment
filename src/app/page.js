@@ -17,14 +17,16 @@ import MoreaboutING from "./components/MoreaboutING";
 import Typewritereffect from "./components/Typewritereffect";
 import Scholarshiprecipent from "./components/Scholarshiprecipent";
 import Ouralumni from "./components/Ouralumni";
+import { handleClientScriptLoad } from "next/script";
 
 const HomePage = () => {
+  
   return (
     <>
 
     
     
-      <div className="scrollNav">
+      <div>
         <Navbar  />
       </div>
       

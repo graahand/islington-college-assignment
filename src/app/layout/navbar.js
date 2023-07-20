@@ -1,9 +1,32 @@
 "use client";
 import React from "react";
+import  { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+
 const Navbar = () => {
+  const handleScroll=()=>{
+    const navbar = document.getElementById('mero-navbar')
+  const scrollY= window.scrollY;
+  if (scrollY>150) {
+    navbar.style.display='flex '
+  }else{
+    navbar.style.display='none'
+  }
+
+  };
+  window.addEventListener('scroll', handleScroll);
+  
+  
+
+
+
+
+  
+  
+  
+  
   return (
     // <nav className='fixed w-full h-24 shadow-xl bg-white'>
     //     <div className='flex justify-between'>
@@ -13,7 +36,9 @@ const Navbar = () => {
     //     </div>
 
     // </nav>
-    <div className=" relative">
+    <>
+    
+    <div id="mero-navbar"  className="relative" >
       <div>
         <Image
           className="cursor-pointer py-2 mt-(-1) ml-[3.5cm] "
@@ -27,14 +52,14 @@ const Navbar = () => {
             Apply Now
           </p>
           <p className="mb-2 text-xl right-37 cursor-pointer font-light text-brown-500 opacity-50 font-big hover:text-blue-800">
-            Menu{"\u00A0"}☰
+            Menu{"\u00A0"}&#9776;
           </p>
         </div>
       </div>
       <div>
-        <nav className="flex bg-customColor text-white">
+        <nav  className="flex bg-customColor text-white">
           <div className="max-w-8xl mx-auto flex justify-between items-center">
-            <div className="px-[2cm] py-3.5 hover:text-red-500">
+            <div  className="px-[2cm] py-3.5 hover:text-red-500">
               <Link href="">WHY US?</Link>
             </div>
 
@@ -61,7 +86,10 @@ const Navbar = () => {
         </nav>
       </div>
     </div>
+
+    </>
   );
 };
 
 export default Navbar;
+
