@@ -31,9 +31,9 @@ const Typewritereffect = () => {
           />
         </span>
       </h1>
-      <p className="text-customColor3 mt-[-0.5 cm] ml-[6.5cm] text-base mx-auto mb-10   font-medium">
+      <h1 className="text-customColor3 mt-[-0.5 cm] ml-[6.5cm] text-base mx-auto mb-10   font-medium">
     Ensuring pleasant lifestyle alongside a secure future through <br/> <p className="ml-[-7cm]">innovation and excellence</p>
-  </p>
+  </h1>
     </div>
   );
 };

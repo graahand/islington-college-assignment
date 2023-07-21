@@ -15,7 +15,7 @@ const UniversityPartner = () => {
       <div className="w-1/2 ml-[-2cm] mt-[-3cm]">
         <div className="h-screen flex flex-col justify-center items-start ml-10">
           <h1 className="text-customSize font-light uppercase text-customColor cursor-pointer inline-block">
-            University <span class="font-bold">Partner</span>
+            University <span className="font-bold">Partner</span>
           </h1>
 
           <img src="/londonmet-logo.svg" alt="Logo" className="mt-customMt cursor-pointer" />

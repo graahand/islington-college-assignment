@@ -19,7 +19,13 @@ import Scholarshiprecipent from "./components/Scholarshiprecipent";
 import Ouralumni from "./components/Ouralumni";
 import { handleClientScriptLoad } from "next/script";
 
+
 const HomePage = () => {
+  // const handleNavbar = () => {
+  //   const collegeNavbar = document.getElementById('myDiv')
+  //   console.log('scrolled')
+    
+  // }
   
   return (
     <>

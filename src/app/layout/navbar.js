@@ -1,44 +1,34 @@
-"use client";
-import React from "react";
-import  { useEffect, useState } from "react";
+'use client'
+
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+import Headroom from "react-headroom";
 
 const Navbar = () => {
-  const handleScroll=()=>{
-    const navbar = document.getElementById('mero-navbar')
-  const scrollY= window.scrollY;
-  if (scrollY>150) {
-    navbar.style.display='flex '
-  }else{
-    navbar.style.display='none'
-  }
+  const [showNavbar, setShowNavbar] = useState(false);
 
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setShowNavbar(true);
+    } else {
+      setShowNavbar(false);
+    }
   };
-  window.addEventListener('scroll', handleScroll);
-  
-  
 
-
-
-
-  
-  
-  
-  
   return (
-    // <nav className='fixed w-full h-24 shadow-xl bg-white'>
-    //     <div className='flex justify-between'>
-    //         <div>Left Side</div>
-    //         <div>Right Side</div>
-
-    //     </div>
-
-    // </nav>
-    <>
-    
-    <div id="mero-navbar"  className="relative" >
+    <div
+      id="mero-navbar"
+      className={`relative ${showNavbar ? "" : "hidden"}`}
+    >
+      {/* ... Rest of the code ... */}
       <div>
         <Image
           className="cursor-pointer py-2 mt-(-1) ml-[3.5cm] "
@@ -86,10 +76,7 @@ const Navbar = () => {
         </nav>
       </div>
     </div>
-
-    </>
   );
 };
 
 export default Navbar;
-
