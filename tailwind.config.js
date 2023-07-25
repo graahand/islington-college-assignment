@@ -12,7 +12,12 @@ module.exports = {
         customColor2:'#007aff',
         typewriterColor:'#f4d32a',
         customColor3:'#fff',
-        footerBG:'#2d2f53'
+        footerBG:'#2d2f53',
+        customColor4:'#fcfcfc'
+
+  
+
+      
         
 
 
